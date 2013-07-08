@@ -1,0 +1,64 @@
+.planogram-preview-main {
+  height: auto:
+  margin-top: 30px;
+  background-color: #fafafa !important;
+  padding-left: 30px;
+}
+
+h1 {
+  color: #474747;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
+}
+
+body {
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  color: #777777;
+}
+
+.planogram-loc-name {
+  padding-bottom: 5px;
+}
+
+.last-updated {
+  padding-top: 5px;
+  color: #50bcf2;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing:0.2em;
+  font-size: 12px;
+}
+
+.app_pages.preview.mobileapp {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------Below is Tablet only--------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (min-width: 481px) {
+
+  .planogram-preview-main {
+    padding-left: 50px;
+  }
+
+  h1 {
+    font-size: 24px !important;
+    letter-spacing: 0.2em !important;
+    padding-top: 60px;
+  }
+  
+  body {
+    font-size: 18px;
+  }
+  
+  .last-updated {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+}

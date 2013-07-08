@@ -1,0 +1,1 @@
+$('p').text('Hello World: this is the main detail page for displaying your app.');
