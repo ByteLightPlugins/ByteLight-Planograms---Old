@@ -12,7 +12,7 @@ h5 {
 .big-image {
   height: 250px;
   background-color: #313131;
-  background: url(/assets/planogram_sampleimg.jpg) no-repeat 0;
+  background: url(http://plugin-assets.s3.amazonaws.com/planogram_sampleimg.jpg) no-repeat 0;
 }
 
 .right-trans {
@@ -45,7 +45,6 @@ h5 {
  
  .big-image {
    height: 500px;
-   background-color: #313131;
-   background: url(/assets/planogram_sampleimg@2x.jpg) no-repeat 0;
+   background: url(http://plugin-assets.s3.amazonaws.com/planogram_sampleimg@2x.jpg) no-repeat 0;
  }
 }
