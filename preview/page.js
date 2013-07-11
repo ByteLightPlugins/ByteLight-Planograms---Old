@@ -1,3 +1,3 @@
-$('.planogram-preview-main').on('click', function() {
+$('.continue-button').on('click', function() {
   BL.displayApp(APP.appId)
 });
